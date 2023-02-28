@@ -29,7 +29,27 @@ body{
 .container{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
     width: 1152px;
+}
+
+.picture {
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+}
+
+.picture:nth-child(-n +4) {
+    margin-bottom: 0;
+}
+
+.picture:nth-child(4n) {
+margin-right: 0;
+}
+
+.picture:not( :nth-child(4n)) {
+    margin-right: 24px;
 }
 
 
@@ -218,25 +238,29 @@ background: var(--accent-color);
 .feature-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 60px  24px;
+
 }
 
 .feature-list .item{
     width: 264px;
+    margin: 60px  24px;
+
 }
 
 .feature-list .title {
     margin-top: 0px;
     margin-bottom: 8px;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 
-.future-list p {
+.feature-list p {
     margin-top: 0;
     margin-bottom: 200px;
-
+    
 }
 
 .feature-list .text {
@@ -267,9 +291,17 @@ background: var(--accent-color);
 
 /* work */
 
+
+.item {
+    width: 264px;
+    margin-right: 12px;
+    margin-bottom: 60px;
+}
+
 .work-list > .item {
     padding-top: 232px;
     padding-bottom: 120px;
+   
 }
 
 
@@ -321,19 +353,22 @@ background: var(--accent-color);
 .project-card-list {
     display: flex;
     flex-wrap: wrap;
+    margin: -12px;
 }
 
 
 .card-content{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
 }
 
 .card-element {
     width: 360px;
-    margin-right: 24px;
-    margin-bottom: 48px;
+    /* margin-right: 24px;
+    margin-bottom: 48px; */
+    /* width: calc(100%-48)/ 3; */
+    margin: 12px;
 }
 
 .card-element:nth-child(-n +3) {
@@ -343,6 +378,16 @@ background: var(--accent-color);
 .card-element:nth-child(3n) {
 margin-right: 0;
 }
+
+
+/* Альтернатива */
+/* .card-element:not( :nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.card-element:not(:nth-last-child(-n +3)){
+    margin-right: 24px;
+} */
 
 .card-list{
     font-weight: 400;
