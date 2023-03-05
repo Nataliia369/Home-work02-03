@@ -91,12 +91,12 @@ text-decoration: none;
 color: #2E2F42;
 }
 
-.main-nav {
+.container-main-nav {
 display: flex;
 align-items: center;
 }
 
-.site-nav-list{
+.site-nav-list .item{
     display: flex;
     margin-left: 76px;
 }
@@ -155,7 +155,7 @@ align-items: center;
 }
 
 .auth-nav-list .item + .item{
-
+    display: flex;
     margin-left: 40px;
 }
 
@@ -299,6 +299,7 @@ background: var(--accent-color);
 }
 
 .work-list > .item {
+    display: flex;
     padding-top: 232px;
     padding-bottom: 120px;
    
@@ -342,9 +343,9 @@ background: var(--accent-color);
 }
 
 .flex-container {
-    width: 1152px;
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -353,7 +354,7 @@ background: var(--accent-color);
 .project-card-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -12px;
+    margin: -15px;
 }
 
 
