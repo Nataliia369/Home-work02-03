@@ -26,11 +26,13 @@ body{
     list-style: none;
 }
 
-.container{
+.container {
+    display: flex;
+    align-items: center;  
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1158px;
 }
 
@@ -103,6 +105,7 @@ align-items: center;
 .site-nav-list {
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 
@@ -110,6 +113,7 @@ align-items: center;
 
 .site-nav-list .item{
     display: flex;
+    
     /* margin-left: 76px; */
 }
 
@@ -258,7 +262,7 @@ background: var(--accent-color);
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
-    gap: 24px;
+    
     /* margin: 60px  24px; */
 
 }
@@ -266,7 +270,7 @@ background: var(--accent-color);
 .feature-list .item{
     width: 264px;
     margin: 60px  24px;
-
+    gap: 24px;
 }
 
 .feature-list .title {
@@ -299,6 +303,7 @@ background: var(--accent-color);
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 
 
 .section-no-padding {
@@ -428,5 +433,5 @@ margin-right: 0;
 .cards {
     
  padding:  0px, 16px, 0px, 16px;
- border
+ 
 }
