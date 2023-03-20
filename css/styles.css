@@ -67,8 +67,8 @@ margin-right: 0;
 }
 
 
-.logo{
-color: var(--primary-text-color);
+.logo {
+color: var(--primary-bg-color);
 font-family: Raleway, sans-serif;
 font-size: 18px;
 line-height: 1.33;
@@ -77,6 +77,17 @@ text-transform: uppercase;
 padding: 24px 0;
 margin: 76px;
 
+}
+
+.logo-header {
+color: var(--primary-text-color);
+font-family: Raleway, sans-serif;
+font-size: 18px;
+line-height: 1.33;
+text-decoration: none;
+text-transform: uppercase;
+padding: 24px 0;
+margin: 76px;
 }
 
 .logo-iris{
@@ -427,9 +438,9 @@ background: var(--accent-color);
 
 
 .project-card-list {
-    display: block;
+    display: flex;
     align-items: center;
-    
+    flex-wrap: wrap;
     /* margin: -15px; */
     padding: 0;
     margin: 0;
@@ -444,6 +455,7 @@ background: var(--accent-color);
     font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
+    padding: 32px 16px;
 }
 
 .card-element {
