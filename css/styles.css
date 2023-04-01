@@ -12,13 +12,12 @@ body{
     background-color:var(--primary-bg-color);
     color:var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     font-size: 16px;
 }
 
 .page-header {
     border-bottom: 1px solid #FFFFFF;
-    
     
 }
 
@@ -222,10 +221,14 @@ padding-bottom: 24px;
     margin: 0;
 }
 
-.item-two {
+
+.auth-nav-list {
+    gap: 40px;
+}
+/* .item-two {
     margin-left: 40px;
     
-}
+} */
   
 
 
@@ -461,11 +464,15 @@ background: var(--accent-color);
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 72px;
+    margin-top: 72px;
     padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.projects-list {
+    margin-bottom: 72px;
 }
 
 .projects {
